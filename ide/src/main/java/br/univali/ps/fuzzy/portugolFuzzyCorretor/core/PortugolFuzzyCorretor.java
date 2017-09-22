@@ -244,6 +244,7 @@ public class PortugolFuzzyCorretor {
     {
         HttpClient httpclient = HttpClients.createDefault();
         HttpPost httppost = new HttpPost("http://portugol-fuzzy.herokuapp.com/api/scores");
+//        HttpPost httppost = new HttpPost("http://localhost:8080/api/scores");
 
         // Request parameters and other properties.
         List<BasicNameValuePair> params = new ArrayList<>(3);
